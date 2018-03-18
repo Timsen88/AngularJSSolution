@@ -24,3 +24,7 @@ Optimeringer:
 - Når man retter i html, css eller js så skal browser automatisk lave update. 
 - Angular pakkene skal også hentes ind via NPM og ikke via Nuget.
 - Wine component skal flyttes over i et separat modul.
+
+Start up
+
+Hent løsning, kør build (vent på npm henter nødvendige moduler) og start debug mode i Visual Studio 2017 efterfølgende. 
