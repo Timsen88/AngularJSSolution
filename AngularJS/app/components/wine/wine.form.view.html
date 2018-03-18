@@ -1,0 +1,21 @@
+﻿
+<h1>
+    Opret / Redigere
+</h1>
+<form  class="col">
+
+    <div class="row">
+        <label class="inputLabel">Navn</label>
+        <input ng-model="wineFormCtrl.bottle.name" type="text" />
+    </div>
+    <div class="row">
+        <label class="inputLabel">Gård</label>
+        <input ng-model="wineFormCtrl.bottle.wineyard" type="text" />
+    </div>
+    <div class="row ">
+        <label class="inputLabel">År</label>
+        <input ng-model="wineFormCtrl.bottle.year" type="number" />
+    </div>
+
+    <input type="button" value="Gem" ng-click="wineFormCtrl.saveForm()"/>
+</form>

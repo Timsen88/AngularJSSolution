@@ -1,0 +1,56 @@
+﻿body {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+div {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.row > .inputLabel{
+    width:15%;
+    margin-right:15px;
+}
+input[type=button] {
+    width: 150px;
+}
+
+.table {
+    width: 100%;
+}
+
+.tableRow {
+    max-height: 50px;
+    align-items: stretch;
+    align-content: stretch;
+    width: 100%;
+
+}
+.table-cell {
+    justify-content: center;
+
+}
+
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.row {
+    flex-direction: row;
+    width: 100%;
+}
+
+.col {
+    flex-direction: column;
+}

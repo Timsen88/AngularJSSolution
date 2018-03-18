@@ -1,0 +1,40 @@
+﻿<h1>
+    Liste
+</h1>
+
+<div class="row tableRow">
+    <div class="row table-cell">
+        <h3>
+            Navn
+        </h3>
+    </div>
+    <div class="row table-cell">
+        <h3>
+            År
+        </h3>
+    </div>
+    <div class="row table-cell">
+        <h3>
+            Gård
+        </h3>
+    </div>
+    <div class="row table-cell">
+    </div>
+</div>
+<ng-content ng-repeat="bottle in wineCtrl.bottles">
+    <div class="row tableRow">
+        <div class="row table-cell">
+            {{bottle.name}}
+        </div>
+        <div class="row table-cell">
+            {{bottle.wineyard}}
+        </div>
+        <div class="row table-cell">
+            {{bottle.year}}
+        </div>
+        <div class="row table-cell">
+            <a href="#!wine/{{bottle.id}}/details">detaljer</a>  
+        </div>
+    </div>
+</ng-content>
+<input type="button"class="createBtn" value="Opret" ng-click="wineCtrl.create()"/>

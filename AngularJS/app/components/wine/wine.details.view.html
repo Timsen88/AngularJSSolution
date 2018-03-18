@@ -1,0 +1,20 @@
+﻿<h1>
+    Detailjer
+</h1>
+
+<div class="row">
+    <label class="inputLabel">Navn :</label>
+    <div>{{wineDetailsCtrl.bottle.name}}</div>
+</div>
+<div class="row">
+    <label class="inputLabel">Gård:</label>
+    <div>{{wineDetailsCtrl.bottle.wineyard}}</div>
+</div>
+<div class="row ">
+    <label class="inputLabel">År:</label>
+    <div>{{wineDetailsCtrl.bottle.year}}</div>
+</div>
+
+
+<input type="button" value="Gå til oversigt" ng-click="wineDetailsCtrl.goBack()" />
+
