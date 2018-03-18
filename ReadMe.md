@@ -23,3 +23,4 @@ Optimeringer:
 - Når man retter i html filerne og css skal de automatisk opdateres på serveren.
 - Når man retter i html, css eller js så skal browser automatisk lave update. 
 - Angular pakkene skal også hentes ind via NPM og ikke via Nuget.
+- Wine component skal flyttes over i et separat modul.
